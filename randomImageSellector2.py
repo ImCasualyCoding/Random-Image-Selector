@@ -12,7 +12,7 @@ def random_image_selector2():
         str or None: Full path to the randomly selected image file, or None if no images are found.
     """
     # Path to the folder containing images
-    image_folder = r"C:\programing is pain\Im going to eat pi\random image generator\images"
+    image_folder = r"enter your image folder"
     
     # Tuple of supported image file extensions
     valid_extensions = (".jpg", ".jpeg", ".png", ".gif", ".bmp")
@@ -34,4 +34,5 @@ def random_image_selector2():
     
     return full_path
     
+
 
